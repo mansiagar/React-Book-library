@@ -1,9 +1,13 @@
+import { Button } from "@chakra-ui/react";
 import React from "react";
+
+import Login from "./Login";
+import MyBooksPage from "./MyBooksPage";
 
 const Home = () => {
   return (
     <div>
-      <h1>This is home page</h1>
+      <MyBooksPage />
     </div>
   );
 };
